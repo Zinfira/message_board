@@ -60,7 +60,7 @@ describe '#Board' do
       expect(board1.subject).to(eq("Oregon"))
     end
   end
-
+  
   describe("#delete") do 
     it("deletes an board by id") do 
       board1 = MessageBoard::Board.new({:subject => "Epicodus", :body => "body goes here", :id => nil})
